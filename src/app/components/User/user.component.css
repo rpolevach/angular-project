@@ -1,0 +1,35 @@
+.user {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user__form {
+  width: 300px;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.user__block > .user__label {
+  font-size: 16px;
+}
+
+.user__block > .user__input {
+  line-height: 17px;
+  padding: 5px 10px;
+}
+
+.user__btn {
+  margin-top: 15px;
+}

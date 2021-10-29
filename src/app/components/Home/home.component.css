@@ -1,0 +1,55 @@
+.home__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1110px;
+  height: 100vh;
+}
+
+.home {
+  width: 350px;
+  height: 270px;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+  border-radius: 5px;
+}
+
+.home > .home__usersTitle {
+  font-size: 30px;
+  margin: 0;
+}
+
+.home__usersList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr;
+  row-gap: 15px;
+}
+
+.home__usersList > .home__listItem {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-shadow: 4px 3px 8px hsl(0deg 0% 0% / 0.1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__listItem > .home__link {
+  text-decoration: none;
+  color: black;
+}
+
+.user__delete {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
